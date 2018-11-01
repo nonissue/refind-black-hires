@@ -30,16 +30,21 @@ Quick one-liners for mounting your reFIND partition:
 
 Bash:
 
-`sudo mkdir /Volumes/ESP && sudo mount -t msdos /dev/disk0s1 /Volumes/ESP && open /Volumes/ESP`
+```bash
+sudo mkdir /Volumes/ESP && sudo mount -t msdos /dev/disk0s1 /Volumes/ESP && open /Volumes/ESP
+```
 
 Fish Shell:
 
-`sudo mkdir /Volumes/ESP; sudo mount -t msdos /dev/disk0s1 /Volumes/ESP; open /Volumes/ESP`
+```
+sudo mkdir /Volumes/ESP; sudo mount -t msdos /dev/disk0s1 /Volumes/ESP; open /Volumes/ESP
+```
 
 
 ## Credit:
 
 Inspired/suggested by @kstlouis
+
 No claim of ownership is made over any of the assets/code provided
 
 
