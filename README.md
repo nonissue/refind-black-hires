@@ -2,18 +2,15 @@
 
 ## Info
 
+* A [rEFInd](http://www.rodsbooks.com/refind/) boot manager theme with a black BG and high-res assets
 * A mod of the [refind-dreary](https://github.com/duneheishman/refind-dreary) theme to use a black bg
 * Icons/assets are updated to be white so they show up against the darker background
+* Only high-res assets are included!
 * Feel free to open issues if you have problems/suggestions
-
-## Notes
-
-* Only the high res assets are included
-* Background can be changed
 
 ## Setup
 
-(You must mount your EFI partition first)
+(You must mount your EFI partition first, see below if you need help)
 
 1) Copy this folder to your refind dir (`EFI/refind/`)
 2) Create a new directory called `themes` in the root of your refind dir
