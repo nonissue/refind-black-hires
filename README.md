@@ -29,9 +29,11 @@ include themes/refind-black-hires/theme.conf
 Quick one-liners for mounting your reFIND partition:
 
 Bash:
+
 `sudo mkdir /Volumes/ESP && sudo mount -t msdos /dev/disk0s1 /Volumes/ESP && open /Volumes/ESP`
 
 Fish Shell:
+
 `sudo mkdir /Volumes/ESP; sudo mount -t msdos /dev/disk0s1 /Volumes/ESP; open /Volumes/ESP`
 
 
